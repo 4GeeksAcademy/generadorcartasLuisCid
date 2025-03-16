@@ -1,5 +1,52 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: #006435; 
+  font-family: Arial, sans-serif;
+}
 
-body{
-    background: white;
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  width: 120px;
+  height: 180px;
+  position: relative; 
+  border: 2px solid black;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card-corner {
+  position: absolute;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.top-left {
+  top: 5px;
+  left: 5px;
+}
+
+.bottom-right {
+  bottom: 5px;
+  right: 5px;
+}
+
+.card-value {
+  position: absolute;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 8px;
 }
